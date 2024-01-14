@@ -1,4 +1,4 @@
-//channel cont.
+//channel cont..
 package main
 
 import (
