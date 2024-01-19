@@ -6,6 +6,7 @@ import "fmt"
 
 //structures
 
+// creating structures 
 type Point struct {
 	x        int32
 	y        int32
