@@ -1,6 +1,7 @@
 // interface example 3
 // Golang program illustrates how
 // to implement an interface
+
 package main
 
 import "fmt"
