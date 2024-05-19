@@ -18,6 +18,7 @@ func main() {
 	// instead of creating heavy overhead threads, we create an abstraction of a thread called go routine
 	// inside of go runtime, we have a scheduler that maps these go routines to operating system threads for periods of time. 
   // it also assigns a certain amount of time to complete a particular process for a particular thread.
+	
 	// go rountines can start with very small stack spaces, cuz they can be reallocated very quickly and so they are very cheap to create and destroy
 	// a simple go app can have thousands od go routines
 
