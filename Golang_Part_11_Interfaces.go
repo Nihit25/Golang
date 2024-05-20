@@ -1,4 +1,5 @@
 //interfaces example 1 (first)
+
 package main
 
 import (
