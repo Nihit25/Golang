@@ -15,7 +15,8 @@ type Point struct {
 
 type Circle struct {
 	radius float64
-	center *Point // we can also have it like *Point , omitting 'center'
+	center *Point 
+	// we can also have it like *Point , omitting 'center'
 }
 
 func changeY(pt *Point) {
