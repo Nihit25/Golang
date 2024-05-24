@@ -8,7 +8,8 @@ import (
 	"time"
 )
 
-var wg = sync.WaitGroup{} // it synchronise multiple subroutines together
+var wg = sync.WaitGroup{} 
+// it synchronise multiple subroutines together
 
 func main() {
 	go sayHello() //here this won't show anything cuz main() itself is a goroutine and
