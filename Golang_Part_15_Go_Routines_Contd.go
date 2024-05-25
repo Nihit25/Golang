@@ -1,8 +1,5 @@
 // go routines continued 
 
-
-
-
 package main
 
 import (
@@ -12,7 +9,8 @@ import (
 
 var wg = sync.WaitGroup{}
 var counter = 0
-var m = sync.RWMutex{} //read/write mutex, which is basically a lock . 
+var m = sync.RWMutex{} 
+//read/write mutex, which is basically a lock . 
 // If mutex is locked and someone tries to manipulate the value, it has to wait unless its unlocked.
 
 //RWMutex allows for either at least one reader or exactly one writer.
