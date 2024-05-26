@@ -37,6 +37,7 @@ func main() {
 
 	// Accessing elements of
 	// the tank interface
+	
 	var t tank
 	t = myvalue{10, 14}
 	fmt.Println("Area of tank :", t.Tarea())
