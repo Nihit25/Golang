@@ -7,6 +7,7 @@ import (
 	"sync"
 )
 
+
 var wg = sync.WaitGroup{} // it synchronise multiple subroutines together
 
 func main() { //here wg adds 0, cuz main is also a subroutine
